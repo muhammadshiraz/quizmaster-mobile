@@ -1,0 +1,22 @@
+{
+  "totalTimeLimit": 300,
+  "questions": [
+    {
+      "question": "What is React Native?",
+      "options": [
+        "JavaScript framework",
+        "Mobile OS",
+        "Database",
+        "Programming language"
+      ],
+      "correctIndex": 0,
+      "timeLimit": 30
+    },
+    {
+      "question": "Which company maintains React Native?",
+      "options": ["Google", "Facebook", "Microsoft", "Apple"],
+      "correctIndex": 1,
+      "timeLimit": 25
+    }
+  ]
+}
