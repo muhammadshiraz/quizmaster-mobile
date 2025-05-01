@@ -1,50 +1,56 @@
-# Welcome to your Expo app 👋
+# QuizMaster Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[![React Native](https://img.shields.io/badge/React_Native-0.72-blue?logo=react)](https://reactnative.dev/)
+[![Expo](https://img.shields.io/badge/Expo-49-blue?logo=expo)](https://expo.io/)
 
-## Get started
+A feature-rich quiz application built with React Native that tests users' knowledge across various topics with time-bound questions.
 
-1. Install dependencies
+## 🚀 Features
+- Sequential question display with progress tracking
+- Dual timer system (per question + total quiz duration)
+- Instant answer feedback and auto-navigation
+- Score summary with historical performance tracking
+- Responsive UI with portrait-only orientation
+- AsyncStorage for local score persistence
+- Modern UI/UX with animated transitions
 
-   ```bash
-   npm install
-   ```
+## 📱 Screenshots
+| Start Screen | Quiz Interface | Results |
+|--------------|----------------|---------|
+| <img src="/screenshots/start.jpg" width=200> | <img src="/screenshots/quiz.jpg" width=200> | <img src="/screenshots/results.jpg" width=200> |
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+## ⚙️ Installation
+1. Clone repository:
 ```bash
-npm run reset-project
+git clone https://github.com/yourusername/quizmaster-mobile.git
+```
+2. Install dependencies:
+```bash
+npm install
+```
+3. Start development server:
+```bash
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**Prerequisites**
+- Node.js 16+
+- Expo CLI 7+
+- Android Studio/Xcode (for emulators)
 
-## Learn more
+## 🔧 Technical Implementation
+- React Native 0.72
+- Expo Router for navigation
+- Animated API for transitions
+- AsyncStorage for data persistence
+- TypeScript support
+- Responsive layout system
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🔥 Bonus Feature
+Optional Firebase integration for:
+- User authentication
+- Cloud score synchronization
+- Real-time leaderboards
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📄 License
+MIT License
