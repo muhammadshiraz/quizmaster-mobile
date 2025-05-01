@@ -15,9 +15,9 @@ A feature-rich quiz application built with React Native that tests users' knowle
 - Modern UI/UX with animated transitions
 
 ## 📱 Screenshots
-| Start Screen | Quiz Interface | Results |
-|--------------|----------------|---------|
-| <img src="/screenshots/start.jpg" width=200> | <img src="/screenshots/quiz.jpg" width=200> | <img src="/screenshots/results.jpg" width=200> |
+| Splash Screen | Start Screen | Quiz Interface | Results |
+|--------------|--------------|----------------|---------|
+| <img src="/screenshots/splash.jpg" width=200> | <img src="/screenshots/start.jpg" width=200> | <img src="/screenshots/quiz.jpg" width=200> | <img src="/screenshots/results.jpg" width=200> |
 
 ## ⚙️ Installation
 1. Clone repository:
