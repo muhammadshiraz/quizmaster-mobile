@@ -46,11 +46,5 @@ npx expo start
 - TypeScript support
 - Responsive layout system
 
-## 🔥 Bonus Feature
-Optional Firebase integration for:
-- User authentication
-- Cloud score synchronization
-- Real-time leaderboards
-
 ## 📄 License
 MIT License
